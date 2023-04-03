@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+body {
+    background: lavender;      
+}
+header {
+    background: url(media/imagenes/family.jpg);
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    text-align: center /*centrar el texto verticalmente*/;
+    line-height: 90px;
+    color: rgb(144, 121, 143);
+}
+aside {
+    text-align: left;
+    height: 100%;  
+}
+nav {
+    background: lightblue;    
+}
+nav ul li {   
+    list-style: none;
+    margin: 20px;
+    line-height: 40px;
+    float: left;
+    list-style: none;
+    margin: 10px;
+ }
+ li {
+    width: 100px;
+    min-height: 50px center;    
+    margin: auto;
+    text-align: center;
+    background: rgb(222, 19, 124);
+}
+li a {
+    color: beige;
+   margin: auto;
+   font-size: large;
+}
+nav a:hover {
+    background: blanchedalmond;
+}
+img {
+    width: 350px;
+}
+#slider {
+    width: 950px;
+}
+#menu-h {  
+    min-height: 50px;
+    overflow: hidden;
+    color: black;
+}
+#menu-h ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+#contenido {
+    width: 950px;
+    min-height: 400px;
+    margin: auto;
+    border: black 1px solid;
+}
+footer {
+    width: 950px;
+    min-height: 40px;
+    background: black;
+    color: white;
+    line-height: 50px;
+    margin: auto;
+    text-align: center;
+}
